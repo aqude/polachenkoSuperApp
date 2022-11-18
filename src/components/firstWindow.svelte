@@ -1,23 +1,11 @@
 <script>
     import Greet from "$lib/Greet.svelte";
-  </script>
-  <div class="row-auto">
+</script>
+
+  <p class="text-2x1 font-semibold">Выберите какие характеристики нужны вашему прибору</p>
   
-  </div>
-  
-  <p>Click on the Tauri, Vite, and Svelte logos to learn more.</p>
-  
-  <div class="row">
+  <div class="row pt-10" >
     <Greet />
   </div>
   
-  <style>
-    .logo.vite:hover {
-      filter: drop-shadow(0 0 2em #747bff);
-    }
-  
-    .logo.svelte:hover {
-      filter: drop-shadow(0 0 2em #ff3e00);
-    }
-  </style>
   
